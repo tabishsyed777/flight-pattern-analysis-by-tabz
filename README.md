@@ -13,6 +13,10 @@ position data, explains *why* in plain language, compares against similar flight
 - **No real ADS-B data is included.** All numbers in `reports/evaluation.md` come from generator-made data with generator
   truth labels. They are a smoke test, not an accuracy claim.
 
+## GitHub Pages demo
+
+A static synthetic-data demo is available at https://tabishsyed777.github.io/flight-pattern-analysis-by-tabz/ . It shows a few precomputed sample tracks and explanations. GitHub Pages cannot execute the Python pipeline or Streamlit app; use the local setup below for the complete project.
+
 ## Quick start
 ```bash
 python -m venv .venv && source .venv/bin/activate
